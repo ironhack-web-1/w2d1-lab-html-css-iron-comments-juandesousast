@@ -31,6 +31,7 @@ fieldset{
 label, input{
     display: block;
     margin-top: 5px;
+    font-weight: 700;
 }
 
 input[type="text"],
@@ -44,6 +45,7 @@ input[type="email"]{
 
 input[type="submit"]{
     border-radius: 30px;
+    font-weight: 100;
     padding: 10px;
     color: rgb(255,255,255);
     background-color: rgb(67, 163, 230);
