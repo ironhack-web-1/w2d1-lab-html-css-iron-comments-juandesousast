@@ -1,11 +1,52 @@
+/* Colors
+ 
+Dark Blue: rgb(25, 33, 41)
+Light Blue:  rgb(67, 163, 230)
+Text: rgb(255,255,255)
+
+Form width should be 250px - remember to think 
+about box-sizing when adding padding and borders */
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255);
 }
 
 #form-container {
     margin: auto;
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 270px;
+    height: 370px;
+    padding: 30px;
+    border-color: rgb(67, 163, 230);
+}
+
+label, input{
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 235px;
+}
+
+.checkagree{
+    display: inline;
+}
+
+input[type="submit"]{
+    border-radius: 30px;
+    font-weight: 100;
+    padding: 10px;
+    color: rgb(255,255,255);
+    background-color: rgb(67, 163, 230);
 }
